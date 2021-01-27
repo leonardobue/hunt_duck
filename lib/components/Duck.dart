@@ -4,7 +4,7 @@ import 'package:flame/sprite.dart';
 import 'package:hunt_duck/DuckGame.dart';
 
 class Duck extends ThrowDuck {
-  double get speed => game.tileSize * 12;
+  double get speed => game.tileSize * 9;
 
   Duck(DuckGame game, double x, double y) : super(game) {
     resize(x: x, y: y);
